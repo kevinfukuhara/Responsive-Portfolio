@@ -1,0 +1,268 @@
+/* GLOBAL TAG - CSS ELEMENTS */
+header {
+	display:inline-block;
+	width:100%;
+	background-color: white;
+	border-bottom: 2px solid #cccccc;
+}
+
+h1 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+	/*
+	background-color: black;
+	*/
+	background-image: url("../images/bananas.png");
+	background-repeat: repeat;
+	margin: 0px;
+}
+
+footer {
+	display: block;
+	
+	/*sticky footer*/
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	font-size: 10px;
+
+	color: lightgray;
+	width:100%;
+	text-align: center;
+	padding: 30px 0px 5px 0px;
+	background-color: #666666;
+	border-top: 8px solid #4aaaa5;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+}
+
+a {
+	color: #777777;
+}
+
+div {
+	color: #777777;
+}
+
+/**********************************/
+/***** CLASS - CSS ELEMENTS *******/
+/**********************************/
+.titleH1 {
+	display:inline;
+	float:left;
+	position: relative;
+	align-items: center;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 29px;
+	margin:0;
+	padding: 17.75px 20px;
+	height: 100%;
+}
+
+.titleNav {
+	display:inline;
+	float:left;
+	position: relative;
+	align-items: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+	overflow: hidden;
+	background-color: white;
+	float:right;
+}
+
+/* Style the topnav links */
+.topnav a {
+    display: inline-block;
+    /*color: black;*/
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #4aaaa5;
+    /* color: black; */
+}
+
+/* used for adding a margin to the body of the content */
+.marginMe {
+	width:960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+}
+
+.marginMeBody{
+	width:960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+	margin-top: 16px;
+	border: 1px solid #dddddd;
+	margin-bottom: 74.5px;
+	clear: both;
+}
+
+.bodyPadding {
+	padding: 0px 20px;
+}
+
+.lineShort {
+	width: 96%;
+}
+
+.bodyTitle {
+	padding: 20px 0px 0px 20px;
+	margin-top: 0px;
+	color: #4aaaa5;
+}
+
+.singleItemPad {
+	padding: 0px 20px 25px 20px;
+}
+
+.stretchBar {
+	/* width: 99.5% */
+	margin-top: 5px;
+	width: 905px;
+	height: 25px;
+	padding: 0px 5px;
+}
+
+.stretchBarBodyEmail {
+	/* width: 99.5% */
+	margin-top: 5px;
+	width: 915px;
+	padding: 100px 0px 0px 0px;
+}
+
+/* clearfix Hack: to fix floated element issues */ 
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.bodyTextColor{
+	color: #777777;
+}
+
+.portfoBoxSet {
+	position: relative;
+	width: 920px;
+	height: 725px;
+
+	/**** ^^^^ 
+	NEED to find a way to make this Y-dimension automatic 
+	****/
+}
+
+.portfoIcon {
+	position: absolute;
+	width: calc(90%/3);
+	height: 200px;
+}
+
+.portCol1 {
+	left: 20px;
+}
+
+.portCol2 {
+	left: calc(340px);
+}
+
+.portRow1 {
+	top: 20px;
+}
+
+.portRow2 {
+	top: 260px;
+}
+
+.portRow3 {
+	top: 500px;
+}
+
+.portfoSubtitle {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 20px;
+	/*how to center text both horizontally and vertically in a div element*/
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;       /* the same as your div height */
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 10px;
+}
+
+.portfoSubtitle a {
+	color: white;
+	text-decoration: none;
+}
+
+.iconLink {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/**********************************/
+/***** ID - CSS ELEMENTS *******/
+/**********************************/
+
+#headshot {
+	height: 200px;
+	width: 200px;
+	float: left;
+	padding: 0px 16px 16px 0px;
+}
+
+#bottomParagraph {
+	padding: 0px 20px 10px 20px;
+}
+
+#tablePadding {
+	padding: 20px;
+}
+
+#buttonDesign {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 7px 20px;
+	border: 0px;
+}
+
+#hangmanProj {
+	background-image: url("../images/hangmanProj.jpg");
+}
+
+#rpgGameProj {
+	background-image: url("../images/rpgGameProj.jpg");
+}
+
+#triviaGameProj {
+	background-image: url("../images/triviaGameProj.jpg");
+}
+
+#rutgersInfoWidgProj {
+	background-image: url("../images/rutgersInfoWidgProj.jpg");
+}
+
+#rockPaperScProj {
+	background-image: url("../images/rockPaperScProj.jpg");
+}
