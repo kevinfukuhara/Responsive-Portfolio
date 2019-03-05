@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,52 +11,61 @@
 </head>
 
 <body>
+    <!-- Header -->
+    <!-- containing the top portion of body with my logo or name + the Navigation bar links.-->
+    <!-- ## This will not disappear when scrolling through webpage.## -->
     <header>
-            <!-- Top Section containgin Logo + Navigation Bar.-->
-            <div class="marginMe">
-                <!-- This will provide the margins beteen the side bars-->
-                    <!-- Logo/Name box: Name or logo goes here.-->
-                    <!-- Navigation bar goes here: includes About (homepage), Portfolio, and Contact sections -->
-                <nav>
+        <!-- Top Section containgin Logo + Navigation Bar.-->
+        <div class="marginMe">
+            <!-- This will provide the margins beteen the side bars-->
+            <!-- Logo/Name box: Name or logo goes here.-->
+            <!-- Navigation bar goes here: includes About (homepage), Portfolio, and Contact sections -->
+            <nav>
+                <div class="blueBar">
                     <h1 class="titleH1">Kevin Fukuhara</h1>
-                    <section class ="titleNav topnav">    
-                        <a href="index.html">About</a> | 
-                        <a href="portfolio.html">Portfolio</a> | 
-                        <a href="#">Contact</a>
-                    </section>
-                </nav>
-            </div>
+                </div>
+                <section class="titleNav topnav">
+                    <a href="index.html">About</a> |
+                    <a href="portfolio.html">Portfolio</a> |
+                    <a href="#">Contact</a>
+                </section>
+
+            </nav>
+        </div>
         <br>
     </header>
 
-    <div class="marginMeBody">
-    	<h1 class="bodyTitle">Contact</h1>
-        <hr class="lineShort"> <!-- Line separates About Me from Content-->
+    <div class="padBody">
+        <div class="marginMeBody">
+            <h1 class="bodyTitle">Contact</h1>
+            <hr class="lineShort"> <!-- Line separates About Me from Content-->
 
-        <form id="myform" action="processing.php" method="post" class="formclass singleItemPad">
-            <p>	
-                <!-- Name Box/Field for User -->
-                <label for="name1" class="contactFieldPad">Name</label>
-                <br>
-                <input type="text" name="name1" id="name1" class="stretchBar" placeholder="Full Name"/>
-            </p>
-            <p>	
-                <!-- Email Box/Field for User -->
-                <label for="email" class="contactFieldPad">Email</label>
-                <br>
-                <input type="text" name="email" id="email" class="stretchBar" placeholder="Email"/>
-            </p>
-            <p>
-                <label for="message-box" class="contactFieldPad">Message</label> 
-                <!--<input type "text" name="message-box" id="message-box" class="classic" />-->
-                <br>
-                <textarea row="20" cols="50" id="message-box" class="stretchBarBodyEmail" placeholder=" Please enter your message here...">
+            <form id="myform" action="processing.php" method="post" class="formclass singleItemPad">
+                <p>
+                    <!-- Name Box/Field for User -->
+                    <label for="name1" class="contactFieldPad">Name</label>
+                    <br>
+                    <input type="text" name="name1" id="name1" class="stretchBar" placeholder="Full Name" />
+                </p>
+                <p>
+                    <!-- Email Box/Field for User -->
+                    <label for="email" class="contactFieldPad">Email</label>
+                    <br>
+                    <input type="text" name="email" id="email" class="stretchBar" placeholder="Email" />
+                </p>
+                <p>
+                    <label for="message-box" class="contactFieldPad">Message</label>
+                    <!--<input type "text" name="message-box" id="message-box" class="classic" />-->
+                    <br>
+                    <textarea row="20" cols="50" id="message-box" class="stretchBarBodyEmail"
+                        placeholder=" Please enter your message here...">
                 </textarea>
-            </p>
-            
-            <button type="submit" id="buttonDesign">Submit</button>
-        </form>        
+                </p>
 
+                <button type="submit" id="buttonDesign">Submit</button>
+            </form>
+
+        </div>
     </div>
 
     <!-- Footer will contain the bottom section. -->
@@ -65,4 +75,5 @@
     </footer>
 
 </body>
+
 </html>

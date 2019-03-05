@@ -55,8 +55,6 @@ div {
 /**********************************/
 .titleH1 {
 	display:inline;
-	float:left;
-	position: relative;
 	align-items: center;
 	background-color: #4aaaa5;
 	color: white;
@@ -68,6 +66,8 @@ div {
 
 .blueBar {
 	background-color: #4aaaa5;
+	width: 280.72px;
+	margin: 0px;
 }
 
 .titleNav {
@@ -138,17 +138,17 @@ div {
 }
 
 .stretchBar {
-	/* width: 99.5% */
+	width: 98.5%;
 	margin-top: 5px;
-	width: 905px;
+	/* width: 905px; */
 	height: 25px;
 	padding: 0px 5px;
 }
 
 .stretchBarBodyEmail {
-	/* width: 99.5% */
+	width: 100%;
 	margin-top: 5px;
-	width: 915px;
+	/* width: 915px; */
 	padding: 100px 0px 0px 0px;
 }
 
@@ -274,14 +274,172 @@ div {
 /* 
 -------------- MEDIA QUEURIES -------------------
 */
+@media (min-width: 981px) {
+	header {
+		height: 68px;
+	}
+
+	nav {
+		height: 100%;
+	}
+
+	.marginMe {
+		height: 100%;
+		padding: 0px 40px;
+		width: 100%;
+	}
+
+	.titleH1 {
+		text-align: center; 	
+		/* margin-top: 16px; */
+		/* display: inline-block; */
+		float:left;
+		/* height: 68px; */
+	}
+
+	.topnav {
+		float:right;
+		text-align: center;
+		/* display:inline-block; */
+	}
+
+	.blueBar {
+		width: 280.72px;
+		margin: 0px;
+		/* display: inline-block; */
+	}
+
+	.marginMeBody {
+		/* max-width:960px; */
+		width:100%;
+		margin-left: 0;
+		margin-right: 0;
+		display:block;
+		align-self: center;
+		/* margin-left:  */
+	}
+
+	.padBody{
+		padding: 0% 5%;
+		width:97%;
+	}
+	
+}
+
 @media (max-width: 980px) {
+	header {
+		height: 68px;
+	}
+
+	nav {
+		height: 100%;
+	}
+
+	.marginMe {
+		height: 100%;
+		padding: 0px 40px;
+		width: 100%;
+	}
+
+	.titleH1 {
+		text-align: center; 	
+		/* margin-top: 16px; */
+		/* display: inline-block; */
+		float:left;
+		/* height: 68px; */
+	}
+
+	.topnav {
+		float:right;
+		text-align: center;
+		/* display:inline-block; */
+	}
+
+	.blueBar {
+		width: 280.72px;
+		margin: 0px;
+		/* display: inline-block; */
+	}
+
+	.marginMeBody {
+		max-width:960px;
+		width:100%;
+		margin-left: 0;
+		margin-right: 0;
+		display:block;
+		align-self: center;
+		/* margin-left:  */
+	}
+
+	.padBody{
+		padding: 0% 5%;
+		width:98.20%;
+	}
 	
 }
 
 @media (max-width: 768px) {
+	
+	
+	.marginMeBody {
+		max-width:748px;
+		width:100%;
+		margin-left: 0;
+		margin-right: 0;
+		display:block;
+		align-self: center;
+		/* margin-left:  */
+	}
 
+	.padBody{
+		padding: 0% 5%;
+		width:100%;
+	}
 }
 
 @media (max-width: 640px) {
+	html{
+		height: auto;
+		width: auto;
+	}
+	
+	header {
+		height: 138.5px;
+	}
 
+	.blueBar {
+		width: 100%;
+		height: 70.5px;
+		text-align: center;
+	}
+
+	.titleH1 {
+		float:none;
+		padding: 0px;
+		text-align: center; 	
+		margin-top: 16px;
+		display: inline-block;
+		height: 30px;
+	}
+
+	.topnav {
+		float:none;
+		text-align: center;
+		display:block;
+	}
+
+	.marginMe {
+		width:100%;
+		padding: 0;
+	}
+
+	.padBody {
+		width:90%;
+	}
+
+	.marginMeBody {
+		width:100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
