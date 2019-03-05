@@ -66,6 +66,10 @@ div {
 	height: 100%;
 }
 
+.blueBar {
+	background-color: #4aaaa5;
+}
+
 .titleNav {
 	display:inline;
 	float:left;
@@ -265,4 +269,19 @@ div {
 
 #rockPaperScProj {
 	background-image: url("../images/rockPaperScProj.jpg");
+}
+
+/* 
+-------------- MEDIA QUEURIES -------------------
+*/
+@media (max-width: 980px) {
+	
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px) {
+
 }
