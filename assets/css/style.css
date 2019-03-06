@@ -165,7 +165,8 @@ div {
 
 .portfoBoxSet {
 	position: relative;
-	width: 920px;
+	/* width: 920px; */
+	width: 95%;
 	height: 725px;
 
 	/**** ^^^^ 
@@ -175,8 +176,9 @@ div {
 
 .portfoIcon {
 	position: absolute;
-	width: calc(90%/3);
+	width: calc(90%/2);
 	height: 200px;
+	background-size:cover;
 }
 
 .portCol1 {
@@ -184,7 +186,7 @@ div {
 }
 
 .portCol2 {
-	left: calc(340px);
+	left: calc(50%);
 }
 
 .portRow1 {
@@ -441,5 +443,35 @@ div {
 		width:100%;
 		margin-left: 0;
 		margin-right: 0;
+	}
+
+	.portfoBoxSet {
+		position: relative;
+		width: 95%;
+		height: 1160px;
+	}
+
+	.portfoIcon {
+		width: 90%;
+	}
+
+	.portCol2 {
+		left: 20px;
+	}
+
+	.portRow2smView {
+		top: 260px;
+	}
+
+	.portRow3smView {
+		top:500px; 
+	}
+
+	.portRow4 {
+		top: 720px;
+	}
+
+	.portRow5 {
+		top: 940px;
 	}
 }
